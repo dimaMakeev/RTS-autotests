@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [General Test]">
+  <listeners>
+    <listener class-name="framework.Listener"/>
+  </listeners>
+  <test name="General Accreditation Test(failed)">
+    <classes>
+      <class name="AccreditationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="accreditationTest" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- AccreditationTest -->
+    </classes>
+  </test> <!-- General Accreditation Test(failed) -->
+</suite> <!-- Failed suite [General Test] -->

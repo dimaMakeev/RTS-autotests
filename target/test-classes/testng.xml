@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="General Test">
+
+<listeners>
+
+    <listener class-name="framework.Listener"></listener>
+
+</listeners>
+
+<test name="General Accreditation Test">
+
+    <classes>
+        <class name="AccreditationTest" />
+    </classes>
+
+</test>
+
+</suite>

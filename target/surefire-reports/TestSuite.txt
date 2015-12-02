@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 239.715 sec <<< FAILURE! - in TestSuite
+accreditationTest(AccreditationTest)  Time elapsed: 60.804 sec  <<< FAILURE!
+java.lang.AssertionError: Applicant passport issued by value doesn't match to application one expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pageobjects.AccreditationAcceptPage.checkApplicantPassportIssuedByValue(AccreditationAcceptPage.java:216)
+	at commonactions.AccreditationAcceptCommonActions.checkApplicantInfoTabInfo(AccreditationAcceptCommonActions.java:53)
+	at AccreditationTest.accreditationTest(AccreditationTest.java:63)
+
+accreditationTest(AccreditationTest)  Time elapsed: 60.515 sec  <<< FAILURE!
+java.lang.AssertionError: Applicant passport issued by value doesn't match to application one expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pageobjects.AccreditationAcceptPage.checkApplicantPassportIssuedByValue(AccreditationAcceptPage.java:216)
+	at commonactions.AccreditationAcceptCommonActions.checkApplicantInfoTabInfo(AccreditationAcceptCommonActions.java:53)
+	at AccreditationTest.accreditationTest(AccreditationTest.java:63)
+
